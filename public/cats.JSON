@@ -38,7 +38,7 @@
         "name": "Japanese Football",
         "breeds": 4,
         "origin": "Japan",
-        "rate": 1600,
+        "rate": 600,
         "img": "https://i.ibb.co/KqfMTLC/japanese-bobtail.jpg",
         "star": 4.1,
         "starCount": 2245
@@ -71,7 +71,7 @@
         "name": "Nebelung",
         "breeds": 12,
         "origin": "Russia",
-        "rate": 1550,
+        "rate": 1850,
         "img": "https://i.ibb.co/x5XQPTh/nebelung.jpg",
         "star": 4.6,
         "starCount": 6641

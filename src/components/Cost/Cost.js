@@ -8,7 +8,7 @@ const Cost = (props) => {
         <div>
             <div className="total-cat mt-3">
                 <h4 className="text-center" style={{ color: "#828488" }}><span style={{ color: "#337ab7" }}>Selected <i className="fas fa-cat"></i> :</span> {props.cost.length} Cats</h4>
-                <h4 className="text-center" style={{ color: "#828488" }}><span style={{ color: "#337ab7" }}>Value <i className="fas fa-tags"></i>:</span> {total}</h4>
+                <h4 className="text-center" style={{ color: "#828488" }}><span style={{ color: "#337ab7" }}>Value <i className="fas fa-tags"></i>:</span> {total} $ </h4>
             </div>
 
             {
