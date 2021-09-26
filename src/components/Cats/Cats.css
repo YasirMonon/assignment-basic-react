@@ -1,0 +1,24 @@
+.card-background{
+    /* background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #434343 74%); */
+    background-image: url(https://i.ibb.co/R7s3MJM/texture.png);
+    transition: 0.5s;
+margin: 5px;
+    border-radius: 15px;
+border: 1px solid rgba(255, 0, 0, 0.233);
+background-color: white;
+box-shadow: 4px 4px 7px rgb(133, 150, 226);
+}
+
+.cat-image img{
+    width: 100%;
+    border-radius: 15px;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.button{
+    display: flex;
+    justify-content: space-between;
+}
+

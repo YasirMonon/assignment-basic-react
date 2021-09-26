@@ -1,0 +1,13 @@
+body{
+    background-image: url(https://i.ibb.co/7G28hCX/texture-bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.header{
+    background-color: none;
+    
+}
+.text-danger {
+        color: #f35636!important;
+    }
