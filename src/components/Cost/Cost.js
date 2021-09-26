@@ -7,8 +7,8 @@ const Cost = (props) => {
     return (
         <div>
             <div className="total-cat mt-3">
-                <h3 className="text-warning text-center"><span className="text-danger">Total Cats:</span> {props.cost.length}</h3>
-                <h3 className="text-warning text-center"><span className="text-danger">Value:</span> {total}</h3>
+                <h4 className="text-center" style={{ color: "#828488" }}><span style={{ color: "#337ab7" }}>Selected <i className="fas fa-cat"></i> :</span> {props.cost.length} Cats</h4>
+                <h4 className="text-center" style={{ color: "#828488" }}><span style={{ color: "#337ab7" }}>Value <i className="fas fa-tags"></i>:</span> {total}</h4>
             </div>
 
             {
@@ -18,7 +18,8 @@ const Cost = (props) => {
                             <img src={pd.img} className="cost-card-img" alt="..." />
                         </div>
                         <div className="card-body">
-                            <h3 className="card-title text-warning">{pd.name}</h3>
+                            <h5 className="card-title" style={{ color: "#337ab7" }}>{pd.name}</h5>
+                            <h6 className="card-title" style={{ color: "#337ab7" }}>$ {pd.rate}</h6>
                         </div>
                     </div>)
             }

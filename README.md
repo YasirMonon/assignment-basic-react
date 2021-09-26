@@ -2,6 +2,7 @@
 * Here , user has to select items from given options , and after that all of the selected items need to be shown - below Total / Cost Component.
 
 ![Screenshot of Live Site](images/demo.png)
+
 [Click Here for Live Link / Website  (Netlify](https://assignment-react-store.netlify.app/)
 
 

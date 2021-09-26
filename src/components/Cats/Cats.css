@@ -5,7 +5,7 @@
     transition: 0.5s;
 margin: 5px;
     border-radius: 15px;
-border: 1px solid rgba(255, 0, 0, 0.233);
+border: 2px solid rgba(90, 57, 207, 0.233);
 background-color: white;
 box-shadow: 4px 4px 7px rgb(133, 150, 226);
 }
@@ -15,10 +15,19 @@ box-shadow: 4px 4px 7px rgb(133, 150, 226);
     border-radius: 15px;
     height: 15vw;
     object-fit: cover;
+    
 }
 
 .button{
     display: flex;
     justify-content: space-between;
+    
+}
+.btn {
+    border: 3px solid #337ab7;
+    box-shadow: 5px 5px 10px rgb(84, 94, 187);
 }
 
+.detail-btn{
+    box-shadow: 4px 4px 7px rgb(209, 215, 238);
+}
