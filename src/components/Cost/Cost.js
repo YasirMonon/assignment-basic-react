@@ -12,16 +12,14 @@ const Cost = (props) => {
             </div>
 
             {
-                cost.map(pd =>
-                    <div className="card h-25 card-background d-flex flex-row mb-2">
-                        <div>
-                            <img src={pd.img} className="cost-card-img" alt="..." />
-                        </div>
-                        <div className="card-body">
-                            <h5 className="card-title" style={{ color: "#337ab7" }}>{pd.name}</h5>
-                            <h6 className="card-title" style={{ color: "#337ab7" }}>$ {pd.rate}</h6>
-                        </div>
-                    </div>)
+                cost.map((pd, i) => <div key={i} className="card h-25 card-background d-flex flex-row mb-2"><div>
+                    <img src={pd.img} className="cost-card-img" alt="..." />
+                </div>
+                    <div className="card-body">
+                        <h5 className="card-title" style={{ color: "#337ab7" }}>{pd.name}</h5>
+                        <h6 className="card-title" style={{ color: "#337ab7" }}>$ {pd.rate}</h6>
+                    </div>
+                </div>)
             }
 
         </div>

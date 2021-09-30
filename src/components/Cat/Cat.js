@@ -27,8 +27,8 @@ const Cat = () => {
                 <div className="col-md-9">
                     <div className="row">
                         {
-                            cats.map(cat => <Cats
-                                key={cat.key}
+                            cats.map((cat, i) => <Cats
+                                key={i}
                                 cat={cat}
                                 handleCost={handleCost}
                             ></Cats>)
